@@ -12,6 +12,13 @@
     "useragent",
     "wurfl"
   ],
+  "repository" : { 
+	"type" : "git",
+    "url" : "https://github.com/angleman/deviceatlas.git"
+  },
+  "bugs": { 
+	  "url" : "https://github.com/angleman/deviceatlas/issues"
+  },
   "author": "angleman",
   "dependencies": {
     "conflate": "~1.1.0",
