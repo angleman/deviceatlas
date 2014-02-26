@@ -5,9 +5,16 @@ Unofficial Node Device Atlas API
 
 ## About
 
-Device Atlas:http://deviceatlas.com/ is a database of mobile device information. The official is available at http://deviceatlas.com/downloads. Unfortunately, there isn't an official API for Node or Javascript. 
+[Device Atlas](http://deviceatlas.com) is a database of mobile device information. The official is available at http://deviceatlas.com/downloads. Unfortunately, there isn't an official API for Node or Javascript. 
 
 ## Install
+
+```bash
+npm install deviceatlas
+```
+
+A copy of your [Device Atlas data](https://deviceatlas.com/resources/getting-the-data)
+
 
 This initial version is a wrapper around ```PHP```. Ouch, I know.
 
