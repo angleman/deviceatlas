@@ -3,14 +3,6 @@ var fs = require('fs'),
 ; 
 
 
-
-php('sample.php', function(error, data) {
-	if (error) {
-		console.log(error) // PHP error or stderr
-	} else {
-		console.log(data); // PHP stdout  'Hello'
-	}
-}
  
 // json string in and out
 function DeviceAtlas(config) {
@@ -19,6 +11,16 @@ function DeviceAtlas(config) {
 
 	config = (config) ? conflate(defaults, config) : defaults;
 
+	function device(ua, callback) {
+		php('index.php', function(error, data) {
+			if (error) {
+				data = undefined;
+			} else {
+				error = undefined;
+			}
+			callback(error, data);
+		}
+	}
 }
  
 module.exports = DeviceAtlas;
