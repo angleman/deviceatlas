@@ -1,6 +1,6 @@
 {
   "name": "deviceatlas",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Node Device Atlas API",
   "main": "index.js",
   "scripts": {
