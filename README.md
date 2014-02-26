@@ -15,14 +15,14 @@ This initial version is a wrapper around ```PHP```. Ouch, I know.
 
 ```js
 var DeviceAtlas = require('deviceatlas');
-var DA = DeviceAtlas('DeviceAtlas.json');
+var DA = DeviceAtlas('DeviceAtlas.json'); // DeviceAtlas device tree data file
 var ua = 'SonyEricssonW850i/R1GB Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1';
-var properties = DA.device(ua); // {u'gprs': '1', u'mpeg4': '1', u'drmOmaForwardLock': '1', ...
+var properties = DA.device(ua);  // {u'gprs': '1', u'mpeg4': '1', u'drmOmaForwardLock': '1', ...
 ```
 
 ## To Do
 
-Drop PHP dependency
+Drop PHP dependency and callback
 
 
 ## License
