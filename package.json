@@ -1,0 +1,26 @@
+{
+  "name": "deviceatlas",
+  "version": "0.1.0",
+  "description": "Node Device Atlas API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R list test/*.js"
+  },
+  "keywords": [
+    "device",
+    "lookup",
+    "useragent",
+    "wurfl"
+  ],
+  "author": "angleman",
+  "dependencies": {
+    "phpexe": "~0.1.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-bump": "0.0.13",
+    "license-md": "~0.3.6",
+    "mocha": "~1.17.1",
+    "should": "~3.1.3"
+  }
+}
